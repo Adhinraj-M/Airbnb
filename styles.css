@@ -29,7 +29,6 @@ body {
   color: #222222;
   line-height: 1.43rem;
   height: 100%;
-  font-family: "Airbnb font";
   -webkit-font-smoothing: antialiased;
 }
 
@@ -145,7 +144,6 @@ body {
   padding-inline: 56px;
   justify-content: space-between;
   align-items: baseline;
-  overflow: hidden;
   position: relative;
   display: flex;
   line-height: 20.02px;
@@ -356,6 +354,9 @@ body {
 .main-center-container main {
   margin-bottom: 49px;
 }
+.main-center-container main .center-container-2 {
+  margin-top: 8px;
+}
 
 .main-center-container main .center-container-2::before {
   display: flex;
@@ -369,7 +370,6 @@ body {
 
 .main-center-container main .first-full-container-2 .title-container {
   place-self: auto;
-  /* grid-area: header; */
 }
 
 .main-center-container main .first-full-container-2 .title-container-2 {
@@ -415,8 +415,15 @@ body {
 }
 
 .main-center-container .first-full-container-2 .title-container-2 .title .svg {
-  margin-inline-start: -2px;
   display: inline-block;
+}
+
+.m-inline-start {
+  margin-inline-start: -2px;
+}
+
+.m-inline-start-1 {
+  margin-inline-start: -1px;
 }
 
 .main-center-container
@@ -608,7 +615,6 @@ main
   padding-block: 5.5px;
 }
 
-
 main
   .scroll-image-container-5
   .first-image-container-3
@@ -651,7 +657,7 @@ main .scroll-image-container-5 .favourite-container-2 button {
   line-height: 1.25rem;
   font-size: 1rem;
   font-family: "Airbnb font";
-  padding:2px 0 0;
+  padding: 2px 0 0;
   margin: -2px 0 0;
   outline: none;
   color: #222222;
@@ -817,7 +823,8 @@ main
   .second-text-container
   .dot-container {
   color: rgb(193, 193, 193);
-  /* width: 7.45px; */
+  margin-left: -2px;
+  margin-right: -3px;
 }
 
 main
@@ -863,53 +870,51 @@ main .scroll-image-container-5 .second-text-container .rating-container svg {
   height: 8px;
   width: 8px;
   fill: currentColor;
+  margin-right: 0.3px;
+}
+.rating {
 }
 
-
-.inspire-container::before{
-  content: '';
+.inspire-container::before {
+  content: "";
   display: flex;
 }
 
-
-
-.inspire-content-container-2{
-  background-color: #F7F7F7;
-
+.inspire-content-container-2 {
+  background-color: #f7f7f7;
 }
 
-.inspire-content-container::after{
-   content: '';
+.inspire-content-container::after {
+  content: "";
   display: flex;
-
 }
 
-.inpsire-content-container-3{
+.inpsire-content-container-3 {
   margin-inline: auto;
-  padding-inline:24px;
+  padding-inline: 24px;
   max-width: 1920px;
   padding-block: 48px;
-
+  line-height: 20.02px;
 }
 
-.inspire-content-container-4{
+.inspire-content-container-4 {
   grid-column-start: 2;
 }
 
-.inspire-content-container-4 h2{
+.inspire-content-container-4 h2 {
   margin-bottom: 8px;
   font-weight: 500;
   line-height: 1.625rem;
   font-size: 1.375rem;
+  margin-top: 0px;
   letter-spacing: -0.01375rem;
 }
 
-.inspire-content-container-4 .content-heading{
+.inspire-content-container-4 .content-heading {
   position: relative;
-
 }
 
-.inspire-content-container-4 .content-heading-2{
+.inspire-content-container-4 .content-heading-2 {
   margin-right: -12px;
   margin-left: -12px;
   padding-left: 12px;
@@ -918,14 +923,13 @@ main .scroll-image-container-5 .second-text-container .rating-container svg {
   scrollbar-width: none;
 }
 
-
-.inspire-content-container-4 .content-heading-3{
-  white-space:nowrap;
+.inspire-content-container-4 .content-heading-3 {
+  white-space: nowrap;
   display: flex;
   overflow: visible;
 }
 
-.inspire-content-container-4 .content-heading-3 .first{
+.inspire-content-container-4 .content-heading-3 .first {
   margin-left: -10px;
   margin-right: 6px;
   margin-top: 6px;
@@ -935,7 +939,7 @@ main .scroll-image-container-5 .second-text-container .rating-container svg {
   font-size: 0.875rem;
   position: relative;
   font-weight: 500;
-  font-family: 'Airbnb font';
+  font-family: "Airbnb font";
   border-radius: 8px;
   background: transparent;
   padding: 10px;
@@ -943,53 +947,50 @@ main .scroll-image-container-5 .second-text-container .rating-container svg {
   letter-spacing: normal;
 }
 
-.inspire-content-container-4 .content-heading-3 .first::after{
+.inspire-content-container-4 .content-heading-3 .first::after {
   background-color: #222222;
   left: 10px;
   position: absolute;
-  content: '';
+  content: "";
   height: 2px;
   width: calc(100% - 20px);
   bottom: -6px;
-
 }
 
-.inspire-content-container-4 .content-heading-3 .second{
+.inspire-content-container-4 .content-heading-3 .second {
   margin: 6px 0px;
   border: none;
   line-height: 1.125rem;
   font-size: 0.875rem;
   font-weight: 500;
-  font-family: 'Airbnb font';
+  font-family: "Airbnb font";
   border-radius: 8px;
   background: transparent;
   padding: 10px;
-  color: #6A6A6A;
+  color: #6a6a6a;
   letter-spacing: normal;
 }
 
-.self-close-5{
+.self-close-5 {
   background-color: #dddddd;
   height: 1px;
-
 }
 
-.inspire-container .content-container-2{
+.inspire-container .content-container-2 {
   padding-top: 32px;
-
 }
 
-.inspire-container .content-container-2 ul{
+.inspire-container .content-container-2 ul {
   padding: 0;
   margin: 0;
   column-gap: 8px;
-  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   row-gap: 24px;
   display: grid;
-  list-style:none;
+  list-style: none;
 }
 
-.inspire-container .content-container-2 ul li a{
+.inspire-container .content-container-2 ul li a {
   flex-direction: column;
   line-height: 1.125rem;
   font-size: 0.875rem;
@@ -998,56 +999,58 @@ main .scroll-image-container-5 .second-text-container .rating-container svg {
   white-space: nowrap;
   overflow: hidden;
   display: flex;
-  color:#6A6A6A ;
+  color: #6a6a6a;
   letter-spacing: normal;
 }
 
-.inspire-container .content-container-2 ul li a span{
+.inspire-container .content-container-2 ul li a span {
   font-weight: 500;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   color: #222222;
-
 }
 
-.inspire-container .content-container-2 ul li .show-more-btn{
+.inspire-container .content-container-2 ul li .show-more-btn {
   text-align: center;
   align-items: center;
   padding: 0;
   margin: 0;
+  display: flex;
+  font-family: "Airbnb font";
   border-radius: 8px;
   color: #222222;
   font-weight: 500;
   border: none;
-   line-height: 1.125rem;
+  line-height: 1.125rem;
   font-size: 0.875rem;
   width: auto;
   text-decoration: none;
   letter-spacing: normal;
   gap: 4px;
   min-width: auto;
+  background-color: #f7f7f7;
 }
 
-.footer-main-container::before{
-  content: '';
+.footer-main-container::before {
+  content: "";
   display: flex;
 }
 
-footer{
-  background-color: #F7F7F7;
+footer {
+  background-color: #f7f7f7;
 }
 
-footer .footer-container{
-  padding:0px 24px;
+footer .footer-container {
+  padding: 0px 24px;
   margin-inline: auto;
 }
 
-footer .footer-container-2{
+footer .footer-container-2 {
   grid-column-start: 2;
 }
 
-footer .site-footer-container{
+footer .site-footer-container {
   padding: 0;
   border: 0;
   white-space: nowrap;
@@ -1059,32 +1062,31 @@ footer .site-footer-container{
   clip: rect(0 0 0 0);
 }
 
-footer .site-footer-container h2{
+footer .site-footer-container h2 {
   margin-top: 0;
   margin-bottom: 15px;
 }
 
-footer .footer-container-3{
+footer .footer-container-3 {
   column-gap: 16px;
-  grid-template-columns: repeat(4,minmax(0,1fr));
-  display: grid; 
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: grid;
 }
 
-footer .footer-container-3 .section-1{
-  
+footer .footer-container-3 .section-1 {
   grid-column: 1/-1;
   padding-block: 24px;
   line-height: 20.02px;
 }
-.no-border{
+.no-border {
   border-top: 0;
 }
 
-.section-border{
-  border-top: 1px solid #DDDDDD;
+.section-border {
+  border-top: 1px solid #dddddd;
 }
 
-footer .footer-container-3 .section-1 h3{
+footer .footer-container-3 .section-1 h3 {
   margin-bottom: 16px;
   margin-top: 0px;
   line-height: 1.125rem;
@@ -1094,7 +1096,7 @@ footer .footer-container-3 .section-1 h3{
   letter-spacing: normal;
 }
 
-footer .footer-container-3 .section-1 ul{
+footer .footer-container-3 .section-1 ul {
   padding: 0;
   margin: 0;
   display: grid;
@@ -1102,7 +1104,7 @@ footer .footer-container-3 .section-1 ul{
   list-style: none;
 }
 
-footer .footer-container-3 .section-1 ul li a{
+footer .footer-container-3 .section-1 ul li a {
   padding: 0;
   margin: 0;
   line-height: 1.125rem;
@@ -1113,16 +1115,17 @@ footer .footer-container-3 .section-1 ul li a{
   text-align: left;
   border: 0;
   border-radius: 2px;
-  position:relative;
+  position: relative;
   letter-spacing: normal;
 }
 
-footer .last-footer-container{
+footer .last-footer-container {
   padding-bottom: 24px;
   padding-top: 24px;
+  border-top: 1px solid #ebebeb;
 }
 
-footer .footer-section-text{
+footer .footer-section-text {
   padding: 0;
   border: 0;
   white-space: nowrap;
@@ -1134,23 +1137,22 @@ footer .footer-section-text{
   clip: rect(0 0 0 0);
 }
 
-footer .last-footer-container .last-section .first-line{
+footer .last-footer-container .last-section .first-line {
   margin-left: -8px;
   margin-bottom: 8px;
-
 }
-footer .last-footer-container .last-section .first-line-2{
+footer .last-footer-container .last-section .first-line-2 {
   display: flex;
 }
 
-footer .last-footer-container .first-line-2 .lang-section{
+footer .last-footer-container .first-line-2 .lang-section {
   margin-right: 4px;
 }
 
-footer .last-footer-container .first-line-2 .lang-btn{
+footer .last-footer-container .first-line-2 .lang-btn {
   text-align: center;
   border: none;
-  background:transparent;
+  background: transparent;
   font-weight: 500;
   padding: 6px 8px;
   border-radius: 8px;
@@ -1160,18 +1162,19 @@ footer .last-footer-container .first-line-2 .lang-btn{
   color: #222222;
 }
 
-footer .last-footer-container .first-line-2 .lang-btn .text{
+footer .last-footer-container .first-line-2 .lang-btn .text {
   align-items: center;
   justify-content: center;
   gap: 8px;
   display: inline-flex;
   vertical-align: top;
+  font-family: "Airbnb font";
 }
 
-footer .last-footer-container .inr-btn{
+footer .last-footer-container .inr-btn {
   text-align: center;
   border: none;
-  background:transparent;
+  background: transparent;
   font-weight: 500;
   padding: 6px 8px;
   border-radius: 8px;
@@ -1183,98 +1186,95 @@ footer .last-footer-container .inr-btn{
   display: inline-block;
 }
 
-footer .last-footer-container .inr-icon{
+footer .last-footer-container .inr-icon {
   margin-right: 5px;
 }
 
-footer .last-footer-container .inr-btn .text-1{
+footer .last-footer-container .inr-btn .text-1 {
   display: inline-block;
   gap: 8px;
+  font-family: "Airbnb font";
 }
 
-footer .last-footer-container .second-line{
+footer .last-footer-container .second-line {
   margin-bottom: 12px;
-  margin-left:-8px;
+  margin-left: -8px;
   padding: 8px 0px;
 }
 
-footer .last-footer-container .second-line ul{
-  list-style:none;
+footer .last-footer-container .second-line ul {
+  list-style: none;
   margin: 0 0 0 8px;
   padding: 0;
   display: flex;
   line-height: 0;
-  gap: 20px;  
+  gap: 20px;
 }
 
-footer .last-footer-container .second-line ul .icon-container{
+footer .last-footer-container .second-line ul .icon-container {
   margin-right: 4px;
 }
 
-footer .last-footer-container .second-line ul .icon-container a{
+footer .last-footer-container .second-line ul .icon-container a {
   background-color: transparent;
   padding: 0;
   border-radius: 50%;
-  border:none;
+  border: none;
   margin: 0;
   position: relative;
   display: inline-block;
-
 }
 
-footer .last-footer-container .second-line ul .icon-container a::before{
+footer .last-footer-container .second-line ul .icon-container a::before {
   background-color: transparent;
   border-radius: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   height: 32px;
   width: 32px;
-
 }
 
-footer .last-footer-container .second-line .social{
+footer .last-footer-container .second-line .social {
   position: relative;
   display: flex;
-
 }
 
-footer .last-footer-container .third-line .text-2-container{
+footer .last-footer-container .third-line {
   line-height: 20.02px;
 }
 
-footer .last-footer-container .third-line .text-1{
+footer .last-footer-container .third-line .text-1 {
   font-size: 0.875rem;
   line-height: 1.125rem;
   color: rgb(34, 34, 34);
   display: inline-block;
   margin-bottom: 4px;
+ 
 }
 
-footer .last-footer-container .third-line .texts-2{
+footer .last-footer-container .third-line .texts-2 {
   display: inline-block;
   line-height: 1.125rem;
   font-size: 0.875rem;
   letter-spacing: normal;
   color: rgb(34, 34, 34);
-
-
 }
-footer .last-footer-container .third-line .texts-2 ol{
+footer .last-footer-container .third-line .texts-2 ol {
   padding: 0;
   margin: 0;
-  display: inline; 
+  display: inline;
 }
 
-footer .last-footer-container .third-line .texts-2 ol li{
+footer .last-footer-container .third-line .texts-2 ol li {
   display: inline-block;
-  list-style-type:none;
+  list-style-type: none;
 }
 
-footer .last-footer-container .third-line .texts-2  .text-3{
+footer .last-footer-container .third-line .texts-2 .text-3 {
   padding: 0;
   margin: 0;
   appearance: none;
@@ -1283,71 +1283,84 @@ footer .last-footer-container .third-line .texts-2  .text-3{
   position: relative;
   letter-spacing: normal;
   font-weight: 400;
-  background:transparent;
-  
+  background: transparent;
 }
 
-footer .last-footer-container .third-line .dot-container-2{
+footer .last-footer-container .third-line .dot-container-2 {
   padding-right: 0;
   padding-left: 0;
   white-space: nowrap;
 }
 
-footer .last-footer-container .third-line .dot{
+footer .last-footer-container .third-line .dot {
   display: inline-block;
   text-align: center;
-  padding-inline: 5px;
+  padding-inline-start: 4.89px;
+  padding-inline-end: 5px;
 }
 
-
-
-@media screen and (max-width:767px){
-
- header .airbnb-logo-container{
+/* under 768px */
+@media screen and (max-width: 767px) {
+  header .airbnb-logo-container,
+  .nav-container,
+  .tablet-scroll-btn,
+  .tablet-content {
     display: none;
   }
-  .tablet-search-container{
-  display: none;
-}
+  .tablet-search-container {
+    display: none;
+  }
+  .main-header-container .category-container-4 {
+    overflow: hidden;
+  }
 }
 
 /* screen from 425px */
 
-@media screen and (min-width:425px) {
+@media screen and (min-width: 425px) {
   .main-header-container .category-container-4 {
-    padding-inline: 64px; 
+    padding-inline: 64px;
   }
-  .main-header-container .underline-container{
+  .main-header-container .underline-container {
     left: 8px;
   }
 
   .main .scroll-image-container-5 .favourite-container {
     line-height: 20.02px;
   }
-
-  
 }
 
-/* tablet screen */
+/* tablet screen  */
 
-@media  screen and (min-width:768px) {
-  .search-bar-container button{
+@media screen and (min-width: 768px) {
+  .search-bar-container button {
     display: none;
   }
 
   .main-header-container {
     display: flex;
     flex-direction: column-reverse;
+    height: 201px;
+    background: linear-gradient(180deg, #ffffff 39.9%, #f8f8f8 100%);
+    border-bottom: 1px solid #ebebeb;
   }
 
-  .main-header-container .category-container{
-   width: 100%;
-   top: 0;
+  .search-bar-container {
+    margin-top: 52px;
+  }
+
+  .main-header-container .input-container-2 {
+    margin-bottom: 30px;
+  }
+
+  .main-header-container .category-container {
+    width: 100%;
+    top: 0;
     z-index: 10;
     line-height: 20.02px;
   }
 
-  header{
+  header {
     padding-inline: 24px;
     align-items: center;
     justify-content: space-between;
@@ -1355,39 +1368,33 @@ footer .last-footer-container .third-line .dot{
     max-width: 1920px;
     display: flex;
     height: 80px;
-
   }
 
-  header .airbnb-logo-container{
+  header .airbnb-logo-container {
     align-items: center;
     position: relative;
     outline: none;
     z-index: 1;
     display: inline-flex;
     vertical-align: middle;
-    color: #FF385C;
+    color: #ff385c;
     height: 80px;
-
   }
 
-  header .airbnb-logo-container::before{
+  header .airbnb-logo-container::before {
     right: -12px;
     left: -12px;
     border-radius: 12px;
-    position:absolute;
-    content: '';
+    position: absolute;
+    content: "";
     top: 12px;
     bottom: 12px;
-
   }
 
-  header .airbnb-logo-container .desktop-icon{
-    display: none;
-  }
-
-  .form-container{
+  h
+  .form-container {
     left: 0;
-    padding-inline:24px ;
+    padding-inline: 24px;
     height: 100%;
     width: 100%;
     top: 0;
@@ -1395,126 +1402,125 @@ footer .last-footer-container .third-line .dot{
     z-index: 0;
   }
 
-  .form-container .tablet-container{
+  .form-container .tablet-container {
     transform: none;
     align-items: center;
     flex-direction: column;
     position: relative;
-    width:100%;
+    width: 100%;
     display: flex;
     z-index: 1;
+    background-color: #fff;
   }
 
-  .form-container .tablet-container-3{
+  .form-container .tablet-container-3 {
     will-change: opacity;
     margin: 28px auto;
     opacity: 1;
     width: 500px;
-
   }
   .main-header-container .category-container-4 {
-    margin-top: -11px;
+    margin-top: 8px;
     justify-content: center;
-    grid-template-columns: repeat(3,min-content);
+    grid-template-columns: repeat(3, min-content);
     position: relative;
     display: grid;
     gap: 35px;
-    padding-top:11px;
+    padding-top: 0px;
     padding-inline: 0;
   }
+  .main-header-container .input-container-4 {
+    padding-block: 32px;
+    border: 1px solid #dddddd;
+  }
 
-
-.main-header-container .category-container-4 a{
-  margin-bottom: 12px;
-  padding-left: 5px;
-  margin-left: -5px;
-  align-items: center;
+  .main-header-container .category-container-4 a {
+    margin-bottom: 12px;
+    padding-left: 5px;
+    margin-left: -5px;
+    align-items: center;
     display: flex;
-  flex-direction: row;
+    flex-direction: row;
+  }
+  .main-header-container .category-container-4 a .container-1 {
+    display: contents;
+  }
 
-}
-.main-header-container .category-container-4 a .container-1{
-  display: contents;
-}
+  .main-header-container .category-container-4 a .container-2 {
+    transform: scale(1.15);
+    position: relative;
+    margin: 0px;
+  }
 
-.main-header-container .category-container-4 a .container-2{
-  transform: scale(1.15);
-  position: relative;
-  margin: 0px;
-}
+  .main-header-container .category-container-4 a .text {
+    margin-left: 16px;
+    font-size: 0.875rem;
+    color: rgb(34, 34, 34);
+    line-height: 1.125rem;
+    text-wrap: wrap;
+    letter-spacing: normal;
+  }
 
-.main-header-container .category-container-4 a .text{
-  margin-left: 16px;
-  font-size: 0.875rem;
-  color: rgb(34, 34, 34);
-  line-height: 1.125rem;
-  text-wrap: wrap;
-  letter-spacing: normal;  
-}
+  .main-header-container .category-container-4 a .text::before,
+  .main-header-container .text-2::before {
+    font-weight: 600;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    content: attr(data-title);
+  }
 
-.main-header-container .category-container-4 a .text::before,
- .main-header-container .text-2::before{
-  font-weight: 600;
-  display: block;
-  visibility: hidden;
-  overflow: hidden;
-  height: 0;
-  content: attr(data-title);
-}
+  .main-header-container .category-container-4 a.category-2 {
+    padding-left: 0;
+    margin-left: 0;
+  }
 
-.main-header-container .category-container-4 a.category-2{
-padding-left: 0;
-margin-left: 0;
- 
-}
+  .main-header-container .second-container-2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
-.main-header-container .second-container-2 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.main-header-container .second-container-2 .top-text{
-  top: -10px;
-}
-.main-header-container .text-2{
+  .main-header-container .second-container-2 .top-text {
+    top: -10px;
+  }
+  .main-header-container .text-2 {
     margin-left: 8px;
     font-size: 0.875rem;
     line-height: 1.125rem;
     text-wrap: nowrap;
-    color: #6A6A6A;
+    color: #6a6a6a;
     letter-spacing: normal;
     width: 81.5px;
   }
- 
-  .main-header-container .text-3{
-    width:56.3px ;
+
+  .main-header-container .text-3 {
+    width: 56.3px;
     margin-left: 12px;
   }
 
-  .main-header-container a.category-3{
+  .main-header-container a.category-3 {
     margin-left: -2px;
     padding-left: 2px;
   }
 
   .main-header-container .underline-container {
-        left: 0;
+    left: 0;
   }
-
 
   .main-header-container .underline-container .underline-1 {
-  transform: translateX(45.6406px);
+    transform: translateX(45.6406px);
   }
 
-   .main-header-container .underline-container .underline-2{
-  transform: translateX(48.6406px) scaleX(9.79063);
-
+  .main-header-container .underline-container .underline-2 {
+    transform: translateX(48.6406px) scaleX(9.79063);
   }
 
-  .main-header-container .underline-container .underline-3{
-     transform: translateX(146.547px);
+  .main-header-container .underline-container .underline-3 {
+    transform: translateX(146.547px);
   }
 
-  .tablet-search-container{
+  .tablet-search-container {
     align-items: center;
     justify-content: space-between;
     transform: translateX(-50%);
@@ -1525,65 +1531,27 @@ margin-left: 0;
     position: absolute;
     gap: 12px;
     height: 66px;
+    line-height: 20.02px;
     max-width: 850px;
   }
 
-d
-
-  .tablet-search-container .extra-div{
-    background-color: #ffffff;
-    border-radius: 100px;
-    transform: none;
-    transform-origin: 50% 50% 0px;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    position: absolute;
-    z-index: 3;
-  }
-
-  .tablet-search-container .extra-div .inner-div-1{
-    opacity: 0;
-    background-color:#EBEBEB ;
-    left: 0;
-    border: 1px solid #DDDDDD;
-    border-radius: 100px;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    position: absolute;
-    z-index: -3;
-
-  }
-
-  .tablet-search-container .extra-div .inner-div-2{
-    opacity: 1;
-    left: 0;
-    border-radius: 1px solid  #DDDDDD;
-    border-radius: 100px;
-    box-shadow:rgba(0, 0, 0, 0.1) 0 3px 12px 0, rgba(0, 0, 0, 0.02) 0 0 0 1px ;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    position: absolute;
-    z-index: -3;
-  }
-
-   .tablet-search-container .tablet-search-container-2{
+  .tablet-search-container .tablet-search-container-2 {
     opacity: 1;
     transform: none;
     align-items: center;
     background: transparent;
     border-radius: 32px;
-    grid-template-columns: minmax(0,2fr) 1px minmax(0,1fr) 1px minmax(0,1fr) 1px minmax(0,2fr);
+    grid-template-columns: minmax(0, 2fr) 1px minmax(0, 1fr) 1px minmax(0, 1fr) 1px minmax(
+        0,
+        2fr
+      );
     height: 100%;
     width: 100%;
     display: grid;
-    gap:2px;
-   }
+    gap: 2px;
+  }
 
-   .tablet-search-container .tablet-search-container-2 .search-container-1{
+  .tablet-search-container .tablet-search-container-2 .search-container-1 {
     align-items: center;
     justify-content: space-between;
     border-radius: 32px;
@@ -1592,44 +1560,71 @@ d
     width: 100%;
     display: flex;
     outline: none;
-   }
+  }
 
-   .tablet-search-container .tablet-search-container-2 .search-container-1::before,
-    .tablet-search-container .tablet-search-container-2 .search-container-3::before{
+  .tablet-search-container
+    .tablet-search-container-2
+    .search-container-1::before,
+  .tablet-search-container
+    .tablet-search-container-2
+    .search-container-3::before {
     background-color: transparent;
     left: -4px;
     transform: translateY(-50%);
     top: 50%;
     position: absolute;
-    content: '';
+    content: "";
     z-index: -1;
     height: 32px;
     width: calc(100% + 8px);
-   }
+  }
 
-   .tablet-search-container .tablet-search-container-2 .search-container-1 .search-inner-container{
+  .tablet-search-container
+    .tablet-search-container-2
+    .search-container-1
+    .search-inner-container {
     padding: 15px 32px;
     position: relative;
     width: 100%;
     min-width: 0;
     z-index: 2;
     overflow: clip;
-   }
-   .tablet-search-container .tablet-search-container-2 .search-container-1 .search-inner-container::after,
-   .tablet-search-container .tablet-search-container-2 .search-container-3 .search-inner-container::after
-   {
+  }
+
+  .tablet-search-container
+    .tablet-search-container-2
+    .search-container-1
+    .search-inner-container-1 {
+    padding: 15px 24px;
+    position: relative;
+    width: 100%;
+    min-width: 0;
+    z-index: 2;
+    overflow: clip;
+  }
+
+  .tablet-search-container
+    .tablet-search-container-2
+    .search-container-1
+    .search-inner-container::after,
+  .tablet-search-container
+    .tablet-search-container-2
+    .search-container-3
+    .search-inner-container::after {
     border-radius: 32px;
-    background:transparent;
+    background: transparent;
     z-index: -1;
     position: absolute;
-    content: '';
+    content: "";
     height: 100%;
     top: 0;
     width: calc(100% + 70px);
-
   }
+  .main-center-container main .center-container-2 {
+  margin-top: -1px;
+}
 
-  .tablet-search-container .tablet-search-container-2 .where-text{
+  .tablet-search-container .tablet-search-container-2 .text {
     padding-bottom: 2px;
     font-weight: 500;
     font-size: 0.75rem;
@@ -1641,7 +1636,7 @@ d
     letter-spacing: normal;
   }
 
-  .tablet-search-container .tablet-search-container-2 .input-container input{
+  .tablet-search-container .tablet-search-container-2 .input-container input {
     padding: 0;
     background: none;
     font-weight: 500;
@@ -1654,14 +1649,14 @@ d
     letter-spacing: normal;
   }
 
-  .self-close-6{
+  .self-close-6 {
     background: #dddddd;
     height: 32px;
     width: 1px;
     z-index: -2px;
   }
 
-   .tablet-search-container .tablet-search-container-2 .search-container-3{
+  .tablet-search-container .tablet-search-container-2 .search-container-3 {
     align-items: center;
     justify-content: space-between;
     border-radius: 32px;
@@ -1669,57 +1664,60 @@ d
     height: 100%;
     width: 100%;
     display: flex;
-   }
+  }
 
-   .tablet-search-container .tablet-search-container-2 .search-container-3 .search-inner-container{
+  .tablet-search-container
+    .tablet-search-container-2
+    .search-container-3
+    .search-inner-container {
     padding: 15px 24px;
     position: relative;
     width: 100%;
     min-width: 0;
     z-index: 2;
-   }
-   
-   .add-date-text{
+  }
+
+  .add-date-text {
     line-height: 1.125rem;
     font-size: 0.875rem;
     font-weight: 400;
     text-overflow: ellipsis;
     white-space: nowrap;
     letter-spacing: normal;
-    color: #6A6A6A;
-   }
+    color: #6a6a6a;
+  }
 
-   .empty-container-3{
+  .empty-container-3 {
     left: 0;
     transform-origin: top;
     transform: scaleY(2.5);
-    background:  linear-gradient(180deg, #ffffff 39.9%, #f8f8f8 100%);
+    background: linear-gradient(180deg, #ffffff 39.9%, #f8f8f8 100%);
     width: 100%;
     position: absolute;
     top: 0;
     height: 80px;
-   }
+  }
 
-   .empty-container-3::after{
+  .empty-container-3::after {
     left: 0;
     transform-origin: top;
     transform: scaleY(0.4);
-    background-color: #EBEBEB;
-     width: 100%;
+    background-color: #ebebeb;
+    width: 100%;
     position: absolute;
     top: 0;
     height: 1px;
-    content: '';
-   }
+    content: "";
+  }
 
-   .search-icon-container{
+  .search-icon-container {
     right: 0;
     padding: 10px;
     position: absolute;
     z-index: 2;
-   }
+  }
 
-   .search-icon-container .search-btn{
+  .search-icon-container .search-btn {
     padding: 0;
     margin: 0;
     background: transparent;
@@ -1727,12 +1725,12 @@ d
     border-radius: 50px;
     outline: none;
     display: inline-block;
-   }
+  }
 
-   .search-icon-container .search-svg-wrapper{
+  .search-icon-container .search-svg-wrapper {
     border-radius: 50px;
     opacity: 1;
-    background-color: #FF385C;
+    background-color: #ff385c;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -1740,6 +1738,125 @@ d
     height: 48px;
     width: 48px;
     color: #ffffff;
-   }
+  }
+
+  .nav-container {
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    display: flex;
+    position: relative;
+    gap: 12px;
+  }
+
+  .nav-container .first-icon {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    justify-content: center;
+  }
+
+  .main-center-container .first-full-container-2 .title-container-2 .title {
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    padding-inline-end: 12px;
+  }
+
+  .tablet-scroll-btn {
+    column-gap: 4px;
+    display: flex;
+  }
+
+  .tablet-scroll-btn .scroll-1 {
+    background-color: #fff;
+    color: #c7c7c7;
+    display: flex;
+    opacity: 0.5;
+    align-items: center;
+    border: 1px solid #c7c7c7;
+    border-radius: 50%;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+  }
+  .tablet-scroll-btn .scroll-2 {
+    background-color: #f2f2f2;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+  }
+
+  main .scroll-image-container {
+    padding: 0 24px;
+  }
+
+  main .scroll-image-container-5 {
+    padding-inline: 0px;
+    grid-auto-columns: calc(25% - 8.25px);
+    scroll-padding-inline: 0px;
+  }
+
+  footer .footer-container-3 {
+    padding: 24px 0px 32px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    display: grid;
+  }
+
+  footer .footer-container-3 .section-1 {
+    border-top: 0;
+    grid-column: span 2;
+    padding-block: 0;
+  }
+
+  footer .last-footer-container .last-section .tablet-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    line-height: 20.02px;
+  }
+
+
+  footer .last-footer-container .last-section .first-line,
+  footer .last-footer-container .last-section .second-line {
+    margin-bottom: 0;
+    margin-right: -4px;
+  }
+
+  footer .last-footer-container .third-line {
+    display: flex;
+  }
+
+  footer .last-footer-container .third-line .text-1 {
+  margin-top: 1px;
+}
+footer .last-footer-container .third-line .texts-2 {
+  padding-left: 3px;
+}
 
 }
+
+
+/* max-width:1023px screen */
+@media screen and (max-width:1023px){
+  header .airbnb-logo-container .desktop-icon {
+    display: none;
+  }
+
+}
+
+/* min-width:1023px laptop screen */
+@media screen and (min-width:1024px){
+  .tablet-icon{
+    display: none;
+  }
+}
+
+
