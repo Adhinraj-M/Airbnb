@@ -1143,6 +1143,7 @@ footer .last-footer-container .last-section .first-line {
 }
 footer .last-footer-container .last-section .first-line-2 {
   display: flex;
+
 }
 
 footer .last-footer-container .first-line-2 .lang-section {
@@ -1307,6 +1308,11 @@ footer .last-footer-container .third-line .dot {
   .tablet-content {
     display: none;
   }
+
+  .tablet-icon{
+    display: none;
+  }
+
   .tablet-search-container {
     display: none;
   }
@@ -1340,7 +1346,7 @@ footer .last-footer-container .third-line .dot {
   .main-header-container {
     display: flex;
     flex-direction: column-reverse;
-    height: 201px;
+    height: 200.68px;
     background: linear-gradient(180deg, #ffffff 39.9%, #f8f8f8 100%);
     border-bottom: 1px solid #ebebeb;
   }
@@ -1391,7 +1397,7 @@ footer .last-footer-container .third-line .dot {
     bottom: 12px;
   }
 
-  h
+  
   .form-container {
     left: 0;
     padding-inline: 24px;
@@ -1411,6 +1417,7 @@ footer .last-footer-container .third-line .dot {
     display: flex;
     z-index: 1;
     background-color: #fff;
+
   }
 
   .form-container .tablet-container-3 {
@@ -1844,7 +1851,8 @@ footer .last-footer-container .third-line .texts-2 {
 }
 
 
-/* max-width:1023px screen */
+ /* max-width:1023px screen */
+
 @media screen and (max-width:1023px){
   header .airbnb-logo-container .desktop-icon {
     display: none;
@@ -1856,7 +1864,155 @@ footer .last-footer-container .third-line .texts-2 {
 @media screen and (min-width:1024px){
   .tablet-icon{
     display: none;
+  } 
+
+  header{
+    padding-inline: 32px;
+  }
+
+  .main-header-container .input-container-3 {
+    max-width: 850px;
+    margin-inline: auto;
+    box-shadow: rgba(0, 0, 0, 0.08px) 0px 1px 2px,
+                rgba(0, 0, 0, 0.05) 0px 4px 12px;
+  }
+  .main-center-container main .first-full-container-2 .title-container-2 {
+    margin: 32px 32px 14px;
+  }
+
+  main .scroll-image-container-5 {
+  grid-auto-columns: calc(20% - 8.8px);
+  line-height: 20.02px;
+ }
+
+  main .scroll-image-container{
+      padding: 0px 32px;
+ }
+
+.inpsire-content-container-3 ,footer .footer-container {
+  padding-inline: 32px;
+}
+
+.inspire-container .content-container-2 ul {
+  grid-template-columns: 314.656px 314.672px 314.656px;
+
+  }
+
+  footer .footer-container-3{
+      padding: 32px 0px;
+  }
+
+  .last-section{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      height: 30px;
+      align-items: center;
+  }
+
+  footer .last-footer-container .last-section .tablet-container{
+    gap: 16px;
+    margin-bottom: 0;
+  }
+
+  
+footer .last-footer-container .first-line-2 .lang-btn .text,
+footer .last-footer-container .inr-btn .text-1  {
+  margin-top: 1px;
+}
+ 
+} 
+
+@media  screen and (max-width:1439px) {
+  .become-host-text, .desktop-content{
+    display: none;
   }
 }
+
+@media screen and (min-width:1440px){
+
+  .tablet-container{
+    margin-top: 8px;
+  }
+
+  header{
+   padding-inline: 48px;
+  }
+
+  .become-host-text{
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    z-index: 1;
+    margin-right: 11.77px;
+  }
+
+  .nav-container , .desktop-icon{
+    margin-top: 16px;
+  }
+
+      .main-header-container .input-container-2 {
+        margin-bottom: 22px;
+      }
+  
+  main .scroll-image-container ,footer .footer-container{
+        padding: 0 48px;
+  }
+
+  .main-center-container main .first-full-container-2 {
+    margin-inline:auto;
+    max-width: 1440px;
+  }
+
+  .main-center-container main .first-full-container-2 .title-container-2 {
+    margin: 32px 48px 14px;
+  }
+
+  main .scroll-image-container-5 {
+    grid-auto-columns:calc(14.2857% - 9.42857px);
+    justify-content: flex-start;
+  }
+
+  .mt{
+    margin-bottom: -1px;
+  }
+
+  .main-center-container main .center-container-2 {
+    margin-top: 0px;
+  }
+
+  .inpsire-content-container-3{
+    padding: 48px 0px;
+    margin: 0px 48px;
+  }
+
+  .inspire-container .content-container-2 ul {
+  grid-template-columns:217.328px 217.328px 217.328px 217.344px 217.328px 217.328px ;
+
+  }
+   footer .footer-container-3{
+    padding: 48px 0px;
+   }
+
+   footer .last-footer-container .last-section .tablet-container {
+    margin-top: 0px;
+   }
+
+   footer .last-footer-container .third-line {
+        display: flex;
+        margin-inline: -4px;
+        padding: 4px;
+        margin-top: 3px;
+   }
+
+   .inpsire-content-container-3 {
+    max-width: 1344px;
+    margin-inline: auto;
+    
+   }
+
+}
+
+
+
 
 
